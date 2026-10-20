@@ -13,8 +13,10 @@ Modular Python pipeline that prepares the Titanic dataset for any ML model.
 8. scale_features: StandardScaler fit on train only
 
 ## Run
+```
 pip install pandas seaborn scikit-learn
 python titanic_pipeline.py
+```
 
 ## Key decisions
 - Dropped `alive` to avoid target leakage
